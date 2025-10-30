@@ -1,2 +1,6 @@
 *.orig
 *.rej
+config/dmenu/.git
+config/dwm/.git
+config/st/.git
+config/slstatus/.git
