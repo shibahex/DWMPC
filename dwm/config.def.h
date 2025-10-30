@@ -1,4 +1,4 @@
-/* See LICENSE file for copyright and license details. */
+
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -10,7 +10,7 @@ static const char dmenufont[]       = "monospace:size=10";
 static const char col_fg_norm[]   = "#7dcfff";
 static const char col_bg_norm[]   = "#24283b";
 static const char col_fg_sel[]    = "#000000";
-static const char col_bg_sel[]    = "#7aa2f7";
+static const char col_bg_sel[]    = "#24283b";
 static const char col_border_sel[] = "#7aa2f7";
 static const char col_border_norm[] = "#24283b";
 
@@ -73,7 +73,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
-	// { MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
+	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
